@@ -1,1 +1,3 @@
 Início do conteúdo de CSS: seletores, propriedades e valores, ID e Classes. Link de ligação com estilo em arquivo externo. Teste com seletores. CSS. Inspeção do contéudo HTML. Inclusão do contúde de CSS no material de apoio.
+
+Estilizando o site (elementos, textos e listas) utilizando vários seletores, propriedades e valores do CSS. Propriedades de dimensões e alinhamentos
