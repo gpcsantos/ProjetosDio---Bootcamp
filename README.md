@@ -15,4 +15,4 @@ Caminho percorrido:
 
 
 
-[Glauco Santos - linkedin]
+[Glauco Santos - linkedin](https://www.linkedin.com/in/glauco-santos-85b4454b/)
