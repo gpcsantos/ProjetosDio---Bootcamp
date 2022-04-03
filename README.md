@@ -10,6 +10,7 @@ Caminho percorrido:
  - Pensamento computacional
  - Introdução ao Git e ao GitHub
  - Criando seu Primeiro Repositório no GitHub para compartilha seu progresso (desafio de projeto)
+ - Construindo páginas para internet com Bootstrap
 
 
 

@@ -1,0 +1,40 @@
+body{
+    font: 20px, Arial, sans-serif;
+}
+.navbar{
+    background-color: #B0D9C8;
+}
+.quem-somos{
+    background-color: #FFD5DB;
+    color: white;
+}
+#quem-somos img{
+    width: 400px;
+    height: 400px;
+}
+.margin{
+    padding-bottom:40px;
+    padding-top: 10px;
+}
+.parceiros{
+    background-color: #F5A1A8;
+}
+.justify{
+    text-align: justify;
+}
+.bgfooter{
+    background-color: #2F5C4C;
+    font-weight:lighter;
+    color: #F5A1A8;
+    padding: 15px 0;
+}
+.margin0{
+    margin:0;
+}
+
+@media only screen and (max-width: 425px){
+    #quem-somos img{
+        width: 300px;
+        height: 300px;
+    }
+}
