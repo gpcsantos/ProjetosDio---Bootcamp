@@ -6,6 +6,7 @@ Serão publicados os exercícios e atividades dos 45 cursos envolvidos no bootca
 
 Caminho percorrido:
  - Boas-vindas ao Bootcamp Philips Fullstack Developer | You Are You
+ - Mentoria #1: Aula Inaugural - Philips Fullstack Developer | You Are You
  - Lógica de programação essencial
  - Pensamento computacional
  - Introdução ao Git e ao GitHub
