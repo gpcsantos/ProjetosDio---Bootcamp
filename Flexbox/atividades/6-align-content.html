@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        p{
+            margin-top: 20px;
+            margin-bottom: 0;
+            
+        }
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 ;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #000;
+        }
+        .item{
+            background-color: orange;
+            color: #fff;
+            padding: 5px;
+            flex: 1;
+            text-align: center;
+            margin:2px;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content:space-around
+        }
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>ALIGN-CONTENT</h1>
+    <p>Stretch - comportamento padrão</p>
+    <section class="container stretch">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+
+    <p>Space-Around</p>
+    <section class="container space-around">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+
+    <p>Space-Between</p>
+    <section class="container space-between">
+        <div class="item">1- Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</div>
+        <div class="item">2- Vestibulum ut ex et elit consequat  </div>
+        <div class="item">3- Aenean eget facilisis quam. </div>
+        <div class="item">4- Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper ipsum ut est tristique,  </div>
+        <div class="item">5- Quisque tempor justo et felis .</div>
+        <div class="item">6- Quisque tempor justo et felis . </div>
+        <div class="item">7- Quisque tempor justo et  felisfel isfelisf elis. </div>
+    </section>
+    
+    
+</body>
+</html>

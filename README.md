@@ -12,6 +12,10 @@ Caminho percorrido:
  - Introdução ao Git e ao GitHub
  - Criando seu Primeiro Repositório no GitHub para compartilha seu progresso (desafio de projeto)
  - Construindo páginas para internet com Bootstrap
+ - Posicionando elementos com Flexbox CSS - 50%
+ - Sintaxe Básica cem JavaScript
+ - Sintexe e Operadores JS
+ - Vairávies e Tipos JS
 
 
 

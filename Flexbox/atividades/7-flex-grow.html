@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Grow</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid #000;
+            max-width: 300px;
+        }
+        .item{
+            background-color: orange;
+            margin: 5px;
+            padding:10px;
+            text-align: center;
+            color: #fff;
+        }
+        .fg-0{
+            flex-grow: 0;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+        .fg-3{
+            flex-grow: 3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>FLEX-GROW... aplicado aos itens</h1>
+    <p>flex-grow: 0</p>
+    <section class="container">
+        <div class="fg-0 item">A</div>
+        <div class="fg-0 item">B</div>
+        <div class="fg-0 item">C</div>
+        <div class="fg-0 item">D</div>
+    </section>
+    
+    <p>flex-grow: 1</p>
+    <section class="container">
+        <div class="fg-1 item">A</div>
+        <div class="fg-1 item">B</div>
+        <div class="fg-1 item">C</div>
+        <div class="fg-1 item">D</div>
+    </section>
+
+    <p>flex-grow: 1 e 2</p>
+    <section class="container">
+        <div class="fg-1 item">AAA</div>
+        <div class="fg-2 item">BBBBBBB</div>
+        <div class="fg-2 item">C</div>
+        <div class="fg-1 item">D</div>
+    </section>
+</body>
+</html>
