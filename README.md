@@ -16,6 +16,8 @@ Caminho percorrido:
  - Sintaxe Básica cem JavaScript
  - Sintexe e Operadores JS
  - Vairávies e Tipos JS
+ - Trabalhando com Módulos em JavaScript
+ - Funções - JS
 
 
 
